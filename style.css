@@ -48,10 +48,41 @@ body {
     background-size: 40%;
     width: 60px;
     height: 60px;
-    border: 0;
-    outline: 0;
+    border: none;
+    outline: none;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.add-data {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.select-days {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.select-days button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #ebfffc;
+    color: #555;
+    cursor: pointer;
+}
+
+.select-days button.active {
+    background: #555;
+    color: #ebfffc;
 }
 
 .weather-icon {
