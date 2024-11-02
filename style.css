@@ -126,3 +126,38 @@ body {
 .wind {
     font-size: 28px;
 }
+
+.next-days {
+    display: none;
+    border-top: 2px solid #fff;
+}
+
+.next-days.show {
+    display: block;
+}
+
+.next-days>div {
+    border-bottom: 1px solid #fff;
+}
+
+.day-next .details {
+    margin-top: 10px;
+}
+
+.day-weather {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.weather-icon-day {
+    width: 100px;
+    height: auto;
+}
+
+.day-title {
+    text-align: left;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: 10px;
+}
